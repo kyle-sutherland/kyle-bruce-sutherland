@@ -4,7 +4,7 @@ export default {
   footer: (
     <footer>
       <small>
-        <time>{YEAR}</time> © Kyle Sutherlad.
+        <time>{YEAR}</time> © Kyle Bruce Sutherland.
         {/* <a href='/feed.xml'>RSS</a> */}
       </small>
       <style jsx>
