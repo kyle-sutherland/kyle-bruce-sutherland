@@ -7,6 +7,7 @@ export default function Document() {
     description:
       "A concise portfolio and blog showcasing the professional work of Kyle Sutherland",
     image: "https://assets.vercel.com/image/upload/q_auto/front/vercel/dps.png",
+    icon: "/favicon.png"
   };
 
   return (
@@ -23,6 +24,7 @@ export default function Document() {
         <meta name="twitter:title" content={meta.title} />
         <meta name="twitter:description" content={meta.description} />
         <meta name="twitter:image" content={meta.image} />
+        <link rel="icon" href="/favicon.png" />
       </Head>
       <body>
         <Main />
